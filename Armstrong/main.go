@@ -7,5 +7,5 @@ import (
 )
 
 func main() {
-	fmt.Println(algorithm.IsArmstrong(372))
+	fmt.Println(algorithm.IsArmstrong(371))
 }

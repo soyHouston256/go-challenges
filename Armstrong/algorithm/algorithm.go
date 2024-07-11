@@ -11,11 +11,12 @@ func IsArmstrong(n int) bool {
 		number, _ := strconv.Atoi(string(str[i]))
 		value := Pow(number, len(str))
 		armstrong = armstrong + value
-		if n == armstrong {
-			return true
-		}
 	}
-	return false
+	if n == armstrong {
+		return true
+	} else {
+		return false
+	}
 }
 
 func Pow(n int, pow int) int {
